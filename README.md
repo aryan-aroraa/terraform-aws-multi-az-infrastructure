@@ -6,6 +6,8 @@ A modular AWS infrastructure project provisioned using Terraform, demonstrating 
 
 The infrastructure is deployed inside a custom Amazon VPC across two Availability Zones.
 
+![AWS Multi-AZ Infrastructure Architecture](./architecture/architecture.png)
+
 ### Infrastructure Components
 
 - **Amazon VPC:** Custom VPC with CIDR `10.0.0.0/16`.
@@ -67,31 +69,32 @@ Each module encapsulates a specific infrastructure component, making the configu
 
 ## Deployment
 
-Prerequisites:
+### Prerequisites
+
 - AWS account
 - AWS CLI configured with appropriate permissions
 - Terraform installed
 
-Initialize Terraform:
+### Initialize Terraform
 
 ```bash
 cd environments/dev
 terraform init
 ```
 
-Review the infrastructure plan:
+### Review Infrastructure Plan
 
 ```bash
 terraform plan
 ```
 
-Provision the infrastructure:
+### Provision Infrastructure
 
 ```bash
 terraform apply
 ```
 
-Destroy the infrastructure when finished:
+### Destroy Infrastructure
 
 ```bash
 terraform destroy
