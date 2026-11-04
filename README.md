@@ -6,7 +6,7 @@ A modular AWS infrastructure project provisioned using Terraform, demonstrating 
 
 The infrastructure is deployed inside a custom Amazon VPC across two Availability Zones.
 
-![AWS Multi-AZ Infrastructure Architecture](./architecture/architecture.png)
+![AWS Multi-AZ Infrastructure Architecture](./architecture/AWS%20Terraform%20Infrastructure%20Architecture.png)
 
 ### Infrastructure Components
 
